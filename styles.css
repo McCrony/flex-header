@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-container{
+    /* padding: 20px; */
+}
+
+nav{
+    margin-bottom: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 10px;
+    background-color: rgb(198, 156, 238);
+    padding: 10px;
+    border-bottom: 2px solid rgb(104, 2, 104);
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(104, 2, 104);
+}
+
+ul a{
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Menu item hover */
+nav ul li:hover{
+    background-color: whitesmoke;
+    color: rgb(104, 2, 104);
+    font-weight: 600;
+}
+
+/* Anchor item hover effect */
+ul a:hover{
+    background-color: whitesmoke;
+    color: rgb(104, 2, 104);
+    font-weight: 600;
+}
+
+.logo{
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 30vh;
+    background-color: rgb(248, 227, 248);
+    border: 2px solid rgb(250, 122, 250);
+    color: rgb(37, 4, 33);
+    border-radius: 5px;
+
+}
+
+.card .content{
+    flex: 1 1 auto;
+}
+
+footer{
+    text-align: center;
+    background: rgb(147, 123, 153);
+    color: whitesmoke;
+}
